@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the name of country on selection of continent</title>
+    <script src="s2cc.js"></script>
+    <style>
+        .div_demo{
+            background-color: aqua;
+            width: 50%;
+            height: 300px;
+            padding: 20px;
+            font-size: 18px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div_demo">
+        <select id="continent" onchange="myFunction()">
+            <option>Select Continent</option>
+            <option value="EU">Europe</option>
+            <option value="Asia">Asia</option>
+            <option value="NAmerica">North America</option>
+        </select>
+
+        <select id="countries">
+            <option>Countries</option>
+        </select>
+    </div>
+</body>
+</html>
